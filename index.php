@@ -13,6 +13,7 @@ if(empty($app_key)) {
 }
 if ($app->cfgCon($app_name, $app_key)) {
 	// Connected to Infusionsoft - Run Your Code Below
+	echo 'Connected to Infusionsoft<br>';
 } else {
 	echo 'Error connecting to Infusionsoft. Please make sure your keys are correct.';	
 }
