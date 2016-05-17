@@ -1,4 +1,4 @@
-<?
+<?php
 require_once("src/isdk.php");
 $app = new iSDK;
 $app_name = ''; // Replace with Your Infusionsoft APP Name
